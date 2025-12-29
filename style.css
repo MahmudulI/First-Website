@@ -50,6 +50,40 @@
 
 /* header part design end  */
 
+/* sidebar start */
+.sidebar {
+  width: 70px;
+  flex-direction: column;
+  box-shadow: 0.5px 0.5px 50px rgb(212, 207, 207);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 40%;
+  left: 2%;
+}
+.sidebar i {
+  font-size: 35px;
+  margin: 20px 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.fa-facebook:hover{
+  color: rgb(5, 91, 189);
+}
+.fa-twitter:hover{
+  color: rgb(37, 137, 252);
+}
+
+.fa-instagram:hover{
+  color: rgba(255, 5, 5, 0.822);
+}
+
+.fa-youtube:hover{
+  color: red;
+}
 /* section 1 start */
 
 .section1 {
@@ -96,7 +130,7 @@
 
 /* section 2 start */
 .section2 {
-  width: 90%;
+  width: 85%;
   margin: 200px auto 10px;
   border: none;
   outline: none;
@@ -114,6 +148,10 @@
   text-align: center;
   font-size: 2rem;
   color: #323543;
+}
+
+.section2 .text span{
+  color: rgb(131, 122, 253);
 }
 
 .allCart {
@@ -242,6 +280,7 @@
   /* position: relative; */
   margin-left: -128px;
   margin-top: 8px;
+  cursor: pointer;
 }
 
 .footersection {
